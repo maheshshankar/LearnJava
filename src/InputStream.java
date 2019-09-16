@@ -19,7 +19,7 @@ public class InputStream {
 	public int PerformMathOperation(int[] nums) {
 		int data = 0;
 		Calculator calc = new Calculator();
-		System.out.println("Enter the Type to perform the operation : ");
+		System.out.println("Enter the Type to perform the operation a: Addition b: Subtraction c:Multiplication ");
 		switch(inputStream.next()) {
 			case "a":
 				data = calc.add(nums);
